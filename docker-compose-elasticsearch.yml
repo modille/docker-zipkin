@@ -24,6 +24,8 @@ services:
       - ES_HOSTS=elasticsearch
       # Uncomment to see requests to and from elasticsearch
       # - ES_HTTP_LOGGING=BODY
+      - ES_TIMEOUT=10000
+      - ES_MAX_REQUESTS=64
 
   dependencies:
     environment:
