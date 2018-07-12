@@ -1,0 +1,3 @@
+[submodule "spring-cloud-sleuth"]
+	path = spring-cloud-sleuth
+	url = git@github.com:spring-cloud/spring-cloud-sleuth

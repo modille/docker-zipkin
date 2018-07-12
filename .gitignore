@@ -1,3 +1,8 @@
 *.swp
 .idea
 *.iml
+
+# ignore jmeter reports and jmeter results and jmeter log
+jmeter-report-*
+jmeter-results-*
+jmeter.log
